@@ -63,7 +63,7 @@ cd sd-webui-controlnet-evaclip || exit 1
 git reset --hard ${INITIAL_SUPPORT_COMMIT_EVACLIP}
 cd ../
 
-git clone https://github.com/Gourieff/sd-webui-reactor.git --branch main --single-branch
+git clone https://github.com/Gourieff/sd-webui-reactor-sfw.git --branch main --single-branch
 cd sd-webui-reactor || exit 1
 git reset --hard ${INITIAL_SUPPORT_COMMIT_REACTOR}
 cd ../
